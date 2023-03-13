@@ -2,7 +2,7 @@ import React from 'react'
 import "../../styles/sections/presentation.scss"
 import spidermanImage from "../../assets/spiderman.jpg"
 import Typewriter from "typewriter-effect";
-import pdf from "../../assets/CarlosCruz.pdf"
+import pdf from "../../assets/CARLOSJOSECRUZLUENGAS.pdf"
 export default function Presentation() {
     return (
         <div className="container presentation" id="home">
@@ -45,16 +45,20 @@ export default function Presentation() {
                         </button>
                     </div>
                     <div className="buttons-presentation">
-                        <button className='btn btn-presentation-four'>
-                            <a href="https://www.linkedin.com/in/carlos-jose-cruz-luengas/" target='_blank' style={{color:"white"}}>
+
+                        <a href="https://www.linkedin.com/in/carlos-jose-cruz-luengas/" target='_blank' style={{ color: "white" }} rel="noreferrer">
+                            <button className='btn btn-presentation-four'>
                                 <i class="bi bi-linkedin m-1"></i>
-                            </a>
-                        </button>
-                        <button className='btn btn-presentation-three'>
-                            <a href="https://github.com/CarlosCruz1503" target='_blank' style={{color:"black"}}>
+                            </button>
+                        </a>
+
+
+                        <a href="https://github.com/CarlosCruz1503" target='_blank' style={{ color: "black" }}>
+                            <button className='btn btn-presentation-three'>
                                 <i class="bi bi-github m-1"></i>
-                            </a>
-                        </button>
+                            </button>
+                        </a>
+
                     </div>
                 </div>
             </div>
