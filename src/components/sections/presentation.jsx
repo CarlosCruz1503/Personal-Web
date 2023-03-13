@@ -40,7 +40,7 @@ export default function Presentation() {
                         </button>
                         <button className='btn btn-presentation-two'>
                             <a href={pdf} target="_blank" rel="noopener noreferrer" style={{ color: "black" }}>
-                                Ver mi CV
+                                Ver CV
                             </a>
                         </button>
                     </div>
