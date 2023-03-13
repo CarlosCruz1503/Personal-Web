@@ -1,0 +1,46 @@
+.contact {
+    height: auto;
+    background-image: linear-gradient(#4458dc 0%, #854fee 100%);
+    box-shadow: 0px 20px 10px rgba(66, 22, 209, 0.918);
+    width: 100%;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+    .div-contact {
+        padding: 3rem;
+
+        .form-contact {
+            display: flex;
+            flex-direction: column;
+
+            .field {
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid black;
+                margin: 1rem 0;
+                color: white;
+            }
+
+            .field:focus {
+                outline: none;
+            }
+
+            .field::placeholder {
+                color: rgba(255, 255, 255, 0.534);
+            }
+
+            .btn-submit {
+                color:white;
+                background-image: linear-gradient(#6e7ddb77 0%, #4f99eed5 100%);
+                box-shadow: 0px 10px 10px rgba(22, 25, 209, 0.301);
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,46 @@
+.about {
+    width: auto;
+    height: auto;
+    display: flex;
+    color: black;
+    scroll-margin-top: 300px;
+
+    .about-image {
+        img {
+            max-width: 500px;
+            filter: drop-shadow(5px 5px 100px #0044ffb0)
+        }
+    }
+
+    .about-text {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+            color: rgba(128, 128, 128, 0.856)
+        }
+    }
+}
+
+@media(max-width:"998px") {
+    .about {
+        height: auto;
+        margin-top: -2rem;
+
+        .about-image {
+            display: none;
+
+        }
+
+        .about-text {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            margin: 1rem;
+
+            h1 {}
+        }
+    }
+}

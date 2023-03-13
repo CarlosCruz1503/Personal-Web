@@ -1,0 +1,133 @@
+@import "../root.scss";
+
+nav {
+    height: $nav-size;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 4px black;
+    box-shadow: 0px 9px 20px 11px rgba(0, 0, 0, 0.068);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+
+    .nav-small {
+        display: none;
+    }
+
+    .nav-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-title {
+            font-weight: bolder;
+            background: $background-purple;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-list {
+            display: flex;
+            height: $nav-size;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 0;
+            width: 75%;
+
+            .nav-item {
+                text-decoration: none !important;
+                color: black;
+                margin: 0 1rem;
+            }
+
+            .nav-item:hover {
+                cursor: pointer;
+                background: $background-purple;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+
+@media (max-width:"998px") {
+    nav {
+        background-color: black;
+        height: auto;
+        width: 100%;
+        box-shadow: 2px 2px rgb(255, 255, 255);
+        box-shadow: 0px 9px 45px 11px rgba(255, 255, 255, 0.068);
+        position: fixed;
+
+        .nav-large {
+            display: none;
+        }
+
+        .nav-small {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            .nav-div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+
+                .nav-title {
+                    font-weight: bolder;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .nav-list {
+                    width: 100%;
+
+                    .nav-item {
+                        color: white;
+                    }
+                }
+
+                .toogle-nav-div {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    .nav-list-toogle {
+                        display: flex;
+                        height: auto;
+                        align-items: center;
+                        justify-content: flex-end;
+                        flex-direction: column;
+                        margin-bottom: 0;
+                        width: 100%;
+                        margin-top: 0.5rem;
+
+                        .line {
+                            border-bottom: 1px solid white;
+                            margin:0 5rem;
+                            width: 100%;
+                            margin-top: -0.5rem;
+                        }
+
+                        .nav-item-toogle {
+                            color: white;
+                            margin: 1rem;
+                        }
+
+                        .nav-item-toogle:hover {
+                            cursor: pointer;
+                            background: $background-purple;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

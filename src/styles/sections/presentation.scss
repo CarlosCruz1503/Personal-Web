@@ -1,0 +1,165 @@
+@import "../root.scss";
+
+.presentation {
+    width: 100%;
+    height: calc(100vh - $nav-size);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+
+    .presentation-title {
+        width: 70%;
+
+        .saludo {
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-size: 5rem;
+            }
+
+            .line {
+                width: 100%;
+                margin: 0 1rem;
+                border: 1px solid black;
+            }
+
+            .buttons-presentation {
+                display: flex;
+                gap: 1rem;
+                margin-top: 1rem;
+
+                .btn-presentation {
+                    color: #fff;
+                    font-weight: 500;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    background-image: linear-gradient(#4458dc 0%, #854fee 100%);
+                    box-shadow: 0px 10px 10px rgba(66, 22, 209, 0.918);
+                }
+
+                .btn-presentation-two {
+                    color: black;
+                    font-weight: 500;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    box-shadow: 0px 10px 10px rgba(66, 22, 209, 0.918);
+                }
+                .btn-presentation-three {
+                    color: black;
+                    font-weight: 500;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.918);
+                }
+                .btn-presentation-four {
+                    color: #fff;
+                    font-weight: 500;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    background-image: linear-gradient(#2a40ca 0%, #4f99ee 100%);
+                    box-shadow: 0px 10px 10px rgba(22, 25, 209, 0.918);
+                }
+            }
+
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
+
+    .presentation-image {
+        .img-spiderman {
+            box-shadow: 0px 0px 50px rgba(66, 22, 209, 0.521);
+        }
+    }
+}
+
+@media(max-width:"998px") {
+    .presentation {
+        width: 100%;
+        justify-content: center;
+        height: calc(70vh);
+
+        .presentation-title {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .saludo {
+                h1 {
+                    font-size: 4rem;
+                }
+
+                .line {}
+
+
+                .buttons-presentation {
+                    display: flex;
+                    gap: 1rem;
+                    margin-top: 1rem;
+
+                    .btn-presentation {
+                    }
+
+                    .btn-presentation-two {
+
+                    }
+                }
+
+            }
+        }
+
+        .presentation-image {
+            display: none;
+
+            .img-spiderman {}
+        }
+    }
+}
+
+@media(max-width:"576px") {
+    .presentation {
+        .presentation-title {
+            .saludo {
+                h1 {
+                    font-size: 4rem;
+                }
+
+                .line {}
+            }
+        }
+
+        .presentation-image {
+            .img-spiderman {}
+        }
+    }
+}
+
+@media(max-width:"400px") {
+    .presentation {
+        .presentation-title {
+            .saludo {
+                h1 {
+                    font-size: 3rem;
+                }
+
+                .line {}
+            }
+        }
+
+        .presentation-image {
+            .img-spiderman {}
+        }
+    }
+}
