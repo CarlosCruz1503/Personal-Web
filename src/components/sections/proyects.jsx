@@ -23,7 +23,7 @@ export default function Proyects() {
                             <div className="proyects-card">
                                 <div className="row" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                                     <CardProyect logoP={logoLimes} logoOne={logoReact} logoTwo={logoNode} titleProyect={"Web para Restaurante-Bar"}
-                                        gitLink={"https://github.com/CarlosCruz1503/Proyecto-LimesyLimones"} webLink={"https://limesylimones.vercel.app/home"}
+                                        gitLink={"https://github.com/CarlosCruz1503/Proyecto-LimesyLimones"} webLink={"http://limesylimones.vercel.app/home"}
                                     ></CardProyect>
                                     <CardProyect logoP={logoInstacrem} logoOne={logoReact} logoTwo={logoDjango} titleProyect={"Copia de instagram"}
                                         gitLink={"https://github.com/CarlosCruz1503/Instagram-Copy"} webLink={"https://instagremi.vercel.app/home"}
