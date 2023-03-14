@@ -60,9 +60,10 @@
             }
 
             .pcard:hover {
-                height: auto;
+                
                 .pcard-image {
                     display: none;
+                    height: 100%;
                 }
 
                 .pcard-image-hidden {
@@ -70,7 +71,8 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    height: auto;
+                    height: 100%;
+
                 }
             }
 
@@ -152,6 +154,8 @@
                 }
 
                 .pcard:hover {
+                    height: auto;
+                    min-height: 10rem;
                     .pcard-image {
                         display: none;
                     }
