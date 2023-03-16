@@ -45,6 +45,20 @@
     }
 }
 
+#skills{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width:"998px") {
+    #skills{
+        scroll-margin-top: 50px;
+    }
+}
+
 @media (max-width:"576px") {
     .container {
         .knowledge-title {}

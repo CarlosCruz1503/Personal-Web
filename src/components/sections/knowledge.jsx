@@ -11,9 +11,9 @@ import Skills from '../pure/skills'
 
 export default function Knowledge() {
     return (
-        <div className='container mt-5' id="skills" style={{scrollMarginTop: "200px"}}>
+        <div className='container mt-5' id="skills">
             <h1 className='text-center knowledge-title'>Skills</h1>
-            <div className="row" >
+            <div className="row " >
                 <Skills titleSkill={"React"} logoTec={logoReact} logoCert={logoOpen} 
                     certLink={"https://community.open-bootcamp.com/user/carloscruz15y/certificaciones/68a9b695-04cb-4de1-ab52-5711c956afd1"}
                 >

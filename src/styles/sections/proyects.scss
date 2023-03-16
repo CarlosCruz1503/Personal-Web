@@ -9,7 +9,6 @@
     align-items: center;
     color: black;
     margin-top: 1rem;
-    scroll-margin-top: 100px;
 
     .div-proyects {
         display: flex;
@@ -104,6 +103,12 @@
     }
 }
 
+@media (max-width:"998px") {
+    .proyects {
+        margin-top: 1rem;
+        scroll-margin-top: 100px;
+    }
+}
 
 @media (max-width:"576px") {
     .proyects {
@@ -124,7 +129,7 @@
 
                 .pcard {
                     text-align: center;
-                    height: 10rem;
+                    
                     display: flex;
                     align-items: center;
                     flex-direction: column;

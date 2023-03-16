@@ -26,7 +26,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='container contact' id="contact">
+        <div className='container contact' id="contact" style={{scrollMarginTop: "200px"}}>
             <div className="div-contact">
                 <h1 className='text-center'>Contactame</h1>
                 <h4 className='text-center'>Si tienes algun proyecto en mente y/o necesitas una pagina web, no dudes en contactarme</h4>
