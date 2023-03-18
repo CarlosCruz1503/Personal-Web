@@ -1,9 +1,11 @@
 .about {
     width: auto;
-    height: auto;
+    height: 100vh;
     display: flex;
     color: black;
-    scroll-margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+
 
     .about-image {
         img {
@@ -28,6 +30,7 @@
     .about {
         height: auto;
         margin-top: -2rem;
+        scroll-margin-top: 300px;
 
         .about-image {
             display: none;
